@@ -11,6 +11,8 @@ docker не тестировался и не делался из за пробл
 ##Запуск
 
 docker build --platform=linux/amd64 -t myapp .
+
+
 docker compose up --build
 
 ##Адрес
