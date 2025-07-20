@@ -7,10 +7,14 @@ docker не тестировался и не делался из за пробл
 
 ##Дополнительно
 ##Docker 
+
 ##Запуск
+
 docker build --platform=linux/amd64 -t myapp .
 docker compose up --build
+
 ##Адрес
+
 http://localhost:8080/swagger/index.html
 https://localhost:8081/swagger/index.html
 
